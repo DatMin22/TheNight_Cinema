@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+  padding-top: 60px;
+  
+  .playBtn {
+    visibility: hidden;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+    svg {
+      font-size: 79px;
+      color: rgb(255, 255, 255, 0.6);
+    }
+  }
+  &:hover {
+    .playBtn{
+        visibility: visible;
+    }
+  }
+}
+.control-dots{
+    font-size: 6rem !important;
+    color: rgba(255, 0, 0, 0.6) !important;
+}
+

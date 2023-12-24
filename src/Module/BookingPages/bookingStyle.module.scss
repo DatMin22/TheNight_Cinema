@@ -1,0 +1,59 @@
+// $chairBooking: red;
+// $chairBooked: #909090;
+// $chairVip: #ff5b5b;
+// $chair: #f5cc0085;
+// .chair {
+//   width: 40px;
+//   height: 40px;
+//   background-color: $chair;
+//   border-radius: 6px;
+//   color: #fff;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   cursor: pointer;
+// }
+// .booking {
+//   background: $chairBooking;
+//   color: #fff;
+//   border: transparent;
+// }
+
+// .booked {
+//   background-color: $chairBooked;
+//   color: #000;
+//   pointer-events: none;
+//   border: transparent;
+// }
+// .vipChair {
+//   background: rebeccapurple;
+// }
+
+.chair {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f5cc0085;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.booking {
+  background: red!important;
+  color: #fff;
+  border: transparent;
+}
+
+.booked {
+  background: grey!important;
+  color:#111;
+  pointer-events: none;
+}
+
+.vipChair {
+  background: rebeccapurple;
+}
+
+

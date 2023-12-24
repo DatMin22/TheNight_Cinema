@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.truncate {
+  text-overflow: ellipsis;
+
+  overflow: hidden;
+
+  display: -webkit-box;
+
+  -webkit-box-orient: vertical;
+
+  -webkit-line-clamp: 1;
+}
+
+.truncate--2 {
+  -webkit-line-clamp: 2;
+
+  word-break: break-all;
+}
+
+.truncate--3 {
+  -webkit-line-clamp: 3;
+
+  word-break: break-all;
+}
+
+.carousel {
+  .control-prev::before {
+    border-right: 39px solid rgb(255, 255, 255) !important;
+    border-top: 39px solid transparent !important;
+    border-bottom: 39px solid transparent !important;
+  }
+  .control-next::before {
+    border-left: 39px solid rgb(255, 255, 255) !important;
+    border-top: 39px solid transparent !important;
+    border-bottom: 39px solid transparent !important;
+  }
+  .control-dots {
+    bottom: 12% !important;
+    .dot {
+      width: 21px !important;
+      height: 21px !important;
+      background-color: rgba(255, 0, 0) !important;
+    }
+  }
+}
+
+.btn {
+  background-color: #ff5b5b !important;
+}
+.bgBooking {
+  background: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center/ cover;
+}
